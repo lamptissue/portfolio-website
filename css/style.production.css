@@ -15,7 +15,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -104,8 +104,8 @@ button,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   background-color: #c2c2c2;
   padding-bottom: 10px;
@@ -127,14 +127,14 @@ button,
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -162,11 +162,11 @@ button,
 
 .grid__item:last-child {
   -ms-grid-column: 3;
-      grid-column-start: 3;
+  grid-column-start: 3;
   -ms-grid-column-span: 0;
   grid-column-end: 3;
   -ms-grid-row: 1;
-      grid-row-start: 1;
+  grid-row-start: 1;
   -ms-grid-row-span: 2;
   grid-row-end: 3;
 }
@@ -211,7 +211,7 @@ header img {
 @-webkit-keyframes cloud-move {
   from {
     -webkit-transform: translate(0, -5px);
-            transform: translate(0, -5px);
+    transform: translate(0, -5px);
   }
 
   to {
@@ -223,18 +223,18 @@ header img {
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(0, -5px);
-            transform: translate(0, -5px);
+    transform: translate(0, -5px);
   }
 
   to {
     -webkit-transform: translate(-200px, -5px);
-            transform: translate(-200px, -5px);
+    transform: translate(-200px, -5px);
   }
 }
 
 .cloud-1 {
   -webkit-animation: 30s cloud-move infinite alternate linear;
-          animation: 30s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 }
 
 @-webkit-keyframes bus-driving {
@@ -245,91 +245,91 @@ header img {
 
   to {
     -webkit-transform: translate(-250px, 5px);
-            transform: translate(-250px, 5px);
+    transform: translate(-250px, 5px);
   }
 }
 
 @keyframes bus-driving {
   from {
     -webkit-transform: translate(350px, 5px);
-            transform: translate(350px, 5px);
+    transform: translate(350px, 5px);
   }
 
   to {
     -webkit-transform: translate(-250px, 5px);
-            transform: translate(-250px, 5px);
+    transform: translate(-250px, 5px);
   }
 }
 
 .bus {
   -webkit-animation: 28s bus-driving infinite normal linear;
-          animation: 28s bus-driving infinite normal linear;
+  animation: 28s bus-driving infinite normal linear;
 }
 
 @-webkit-keyframes cloud-move-right {
   0% {
     -webkit-transform: translate(0, 10px);
-            transform: translate(0, 10px);
+    transform: translate(0, 10px);
   }
 
   100% {
     -webkit-transform: translate(200px, 0);
-            transform: translate(200px, 0);
+    transform: translate(200px, 0);
   }
 }
 
 @keyframes cloud-move-right {
   0% {
     -webkit-transform: translate(0, 10px);
-            transform: translate(0, 10px);
+    transform: translate(0, 10px);
   }
 
   100% {
     -webkit-transform: translate(200px, 0);
-            transform: translate(200px, 0);
+    transform: translate(200px, 0);
   }
 }
 
 .cloud-3 {
   -webkit-animation: 25s cloud-move-right infinite alternate linear;
-          animation: 25s cloud-move-right infinite alternate linear;
+  animation: 25s cloud-move-right infinite alternate linear;
 }
 
 @-webkit-keyframes tree {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 
   50% {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
   }
 
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes tree {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 
   50% {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
   }
 
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 .tree .st6 {
   -webkit-animation: 25s tree infinite alternate;
-          animation: 25s tree infinite alternate;
+  animation: 25s tree infinite alternate;
 }
