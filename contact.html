@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neil's website</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="page-header">
+    <h1><a href="index.html"><img src="img/neil-carribine-logo.png" alt="Neil Carribine Logo" ></a></h1>
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+    </header>
+  <!-- main -->
+    <main>
+      <h1>Contact</h1>
+      Email: <a href="mailto:ncarribine@hotmail.co.uk">ncarribine@hotmail.co.uk</a><br>
+      Tel: <a href="tel:+44774839289">Call - 0774839289</a><br>
+      <a href="mailto:ncarribine@hotmail.co.uk">Email me</a>
+
+    <form id="contact-form">
+
+  <label class="standard-label" for="contact-name">*Name:</label>
+  <input type="text" id="contact-name" required>
+
+  <label class="standard-label" for="contact-email">*Email:</label>
+  <input type="email" id="contact-email" required></input>
+
+  <label class="standard-label" for="contact-telephone">Telephone:</label>
+  <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+  <label class="standard-label" for="contact-message">*Message (Max 240 characters):</label>
+  <textarea id="contact-message" required maxlength="240"></textarea>
+  <input type="submit"  value="Send message">
+<p>* Required</p>
+</form>
+
+    </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="#" target="_blank"><img src="img/github_icon.svg" alt="github"></a>
+      <a href="#" target="_blank"><img src="img/twitter_icon.svg" alt="twitter"></a>
+      <a href="#" target="_blank"><img src="img/linkedin_icon.svg" alt="linkedin"></a>
+    </div>
+  </footer>
+
+    <!-- script -->
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
